@@ -10,7 +10,7 @@
 [Defines]
 
 [BuildOptions]
-  RELEASE_*_*_CC_FLAGS     = -DMDEPKG_NDEBUG
+  #RELEASE_*_*_CC_FLAGS     = -DMDEPKG_NDEBUG
 
 [LibraryClasses.common]
   AmlLib|DynamicTablesPkg/Library/Common/AmlLib/AmlLib.inf
